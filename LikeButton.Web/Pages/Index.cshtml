@@ -1,0 +1,20 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>This is Like Button Test</p>
+</div>
+<div id="result">
+
+</div>
+@section scripts
+{
+    <script src="~/js/jquery-2.2.2.js"></script>
+    <script src="~/js/jquery.signalR-2.2.0.js"></script>
+    <script src="~/js/Like.js"></script>
+    <script src="~/js/microsoft/signalr/dist/browser/signalr.js"></script>
+}
